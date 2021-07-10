@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic
+                    <ul class="dropdown">
+                        <li><a href="http://">link-1</a></li>
+                        <li><a href="http://">link-2</a></li>
+                        <li><a href="http://">link-3</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="svg.html">SVG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Fill up the Form</h1>
+    <form action="">
+        <p>Name: <input type="text" name="" placeholder="Enter your Name" id=""></p>
+        <p>Email: <input type="email" name="" placeholder="Enter your Email" id=""></p>
+        <fieldset>
+            Favorites Vehicle: 
+            <p>
+                <label for="Cycle">
+                    <input type="radio" name="Vehicles" id="Cycle">Cycle
+                </label>
+            </p>
+            <p>
+                <label for="Bike">
+                    <input type="radio" name="Vehicles" id="Bike">Bike
+                </label>
+            </p>
+            <p>
+                <label for="Car">
+                    <input type="radio" name="Vehicles" id="Car">Car
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Fond-of: </legend>
+            <p><label for="travelling"><input type="checkbox" name="favourites" id="travelling">Travelling</label></p>
+            <p><label for="cycling"><input type="checkbox" name="favourites" id="cycling">Cycling</label></p>
+            <p><label for="movies"><input type="checkbox" name="favourites" id="movies">Movies</label></p>
+        </fieldset>
+        <p>Suggessins and Informations <br>
+            <textarea name="si" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
